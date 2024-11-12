@@ -18,6 +18,7 @@ import {
   TranslateService,
 } from '@ngx-translate/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AnalyticsService } from './services/analytics/analytics.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -38,7 +39,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
     }),
-    // NgxGoogleAnalyticsModule.forRoot(environment.trackAnalyticID),
+    NgxGoogleAnalyticsModule.forRoot(environment.trackAnalyticID),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -48,7 +49,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     }),
     NgbModule,
   ],
-  providers: [TranslateService],
+  providers: [TranslateService,AnalyticsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
