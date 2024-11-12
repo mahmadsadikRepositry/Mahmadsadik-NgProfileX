@@ -15,7 +15,7 @@ export class LanguageService {
   ) {}
 
   initLanguage(){
-    this.translateService.addLangs(["en", "es"])
+    this.translateService.addLangs(["en"])
     let language = navigator.language || (navigator as any).userLanguage;
     language = language.split("-").includes("es") ? "es" : "en"
     this.translateService.setDefaultLang(language)

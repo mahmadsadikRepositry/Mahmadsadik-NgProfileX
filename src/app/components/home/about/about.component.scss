@@ -17,7 +17,7 @@
             z-index: 0;
             display: block;
             position: relative;
-            width: 394px;
+            width: auto;
             height: 305px;
             border-radius: 3px;
             bottom: 290px;
@@ -77,7 +77,7 @@
             height: 200px;
         }
         .about-img-container:after {
-            width: 200px;
+            width: auto;
             height: 200px;
             bottom: 190px;
             left: 74px;

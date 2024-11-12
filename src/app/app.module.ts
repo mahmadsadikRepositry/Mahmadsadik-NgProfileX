@@ -30,11 +30,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserAnimationsModule,
-
     HomeModule,
     GeneralModule,
-
-    // AnimateOnScrollModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,

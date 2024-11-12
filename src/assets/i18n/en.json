@@ -4,99 +4,48 @@
   "Header.Item3": "Projects",
   "Header.Item4": "Contact",
   "Header.cvBtn": "Resume",
-  "Header.cvName": "CV_Jose_Hernandez_Spanish.pdf",
+  "Header.cvName": "Resume_Mahmadsadik_Koliya.pdf",
 
-  "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have <span class='underline'>8 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, applying good practices and development standards.",
-  "Banner.ActionBtn": "Say Hi",
+  "Banner.Pretitle": "Hi there! I'm",
+  "Banner.Description": "a <span class='underline'>Full Stack Developer</span> with <span class='underline'>5+ years of experience</span> crafting responsive, scalable, and intuitive applications. My focus is on delivering high-quality code and creating impactful solutions using <span class='underline'>Angular</span> and <span class='underline'>Node.js</span>, with an eye for best practices and robust design standards.",
+  "Banner.ActionBtn": "Let's Connect",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In <span class='underline'>8 years of experience</span> I have covered many roles: <span class='underline'>Systems Analyst</span>, <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Technical Lead</span>. I love contributing my knowledge to create new things that help solve problems.",
-    "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
-    "I also program things for my personal use, whether for hobby or utility.",
-    "Some of the technologies I have trained and worked with include (but are not limited to):"
+    "With <span class='underline'>5+ years of experience</span> in software development, I've taken on roles as a <span class='underline'>Frontend Developer</span>, <span class='underline'>Backend Developer</span>. I am passionate about crafting web applications that are efficient, user-friendly, and built to scale, always focusing on adding real value to the projects I work on.",
+    "My expertise lies in optimizing performance, building seamless user experiences, and writing clean, reusable code. I am dedicated to delivering quality solutions and enjoy implementing system improvements and developing standards that make a lasting impact.",
+    "Outside of work, I love experimenting with new tools and frameworks, building personal projects that often solve practical challenges or satisfy my curiosity.",
+    "I am skilled in a range of technologies including Angular, Node.js, AWS, JavaScript (ES6+), TypeScript, RxJS, and CI/CD workflows. These tools enable me to contribute effectively to both frontend and backend development, delivering cohesive and high-performing applications."
   ],
+
+  "About.Skills" :["Angular", "Node.js", "RxJS", "HTML & (S)CSS", "TypeScript", "JavaScript (ES6+)", "AWS", "Express", "Jasmine / Karma (TDD)", "CI/CD", "RESTful APIs", "OAuth2"],
 
   "Experience.Title": "Experience",
   "Experience.Jobs": [
-    {
-      "Tab": "Global",
-      "Title": "Fullstack Developer",
-      "Date": "May 2023",
-      "Description": [
-        "Leader in technical decision making",
-        "Hiring technical talent for the company",
-        "Team leader of the technology department",
-        "Creation and maintenance of an internal process management platform for course sales",
-        "Programming custom functions and plugins for customizing a WordPress platform",
-        "Implementation of continuous integration and daily backups.",
-        "Planning and reporting meetings."
-      ]
-    },
-    {
-      "Tab": "Proyex",
-      "Title": "Fullstack Developer",
-      "Date": "December 2019 - May 2023",
-      "Description": [
-        "Creation and maintenance of a monitoring platform with charts in WordPress.",
-        "Functional programming in templates and plugins to add necessary monitoring features.",
-        "Implementation of continuous integration and daily backups.",
-        "Creation and maintenance of a second Monitoring Platform made with Angular, Angular Material, Laravel, MySQL, RxJS, Sass with configurable charts, alarm systems, and user management and general configuration settings.",
-        "Planning and reporting meetings."
-      ]
-    },
-    {
-      "Tab": "Freelancer",
-      "Title": "Freelancer",
-      "Date": "May 2016 - Present",
-      "Description": [
-        "Continuous improvements implementation, working on frontend and backend.",
-        "Creation of platforms with Angular, Laravel, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-        "Process automation with data structures.",
-        "Template designs with SASS, Bootstrap, Materialize, Bulma, etc."
-      ]
-    },
-    {
-      "Tab": "Moebius",
-      "Title": "Fullstack Developer",
-      "Date": "July 2017 - October 2018",
-      "Description": [
-        "Leading a team of 4 people in the development of a tourism data management platform made in Angular, Laravel, and MySQL.",
-        "Implementation of CI/CD in Azure. Refactoring and optimizing application load times.",
-        "Coding API requests with RxJS.",
-        "Creating modules with complex reactive forms.",
-        "Writing weekly reports about goals and plans."
-      ]
-    },
-    {
-      "Tab": "TechLatam",
-      "Title": "Frontend Developer",
-      "Date": "February 2016 - May 2017",
-      "Description": [
-        "Creating WordPress templates with ACF, functional programming in JavaScript/jQuery, styles in SASS.",
-        "Integrating design and load time improvements for templates.",
-        "Effective communication with the design team, working with Avocode/Figma."
-      ]
-    },
-    {
-      "Tab": "CANTV",
-      "Title": "Systems Analyst",
-      "Date": "November 2015 - December 2016",
-      "Description": [
-        "Programming new functionalities for an existing employee management platform made with Angular and ExpressJS.",
-        "Refactoring old code. Ensuring compatibility of each dependency with each update, including regular Angular updates."
-      ]
-    },
-    {
-      "Tab": "IEP",
-      "Title": "English Teacher",
-      "Date": "January 2015 - July 2015",
-      "Description": [
-        "Teaching basic English to a student body of over 200 students."
-      ]
-    }
-  ],
+  {
+    "Tab": "Simform",
+    "Title": "Software Engineer",
+    "Date": "February 2022 - May 2024",
+    "Description": [
+      "Led the successful migration from AngularJS to Angular 14, improving application scalability, maintainability, and overall performance.",
+      "Spearheaded the integration of Micro Frontend architecture using Webpack Module Federation, enabling modular component design for smoother cross-functional collaboration.",
+      "Designed and developed responsive, cross-browser compatible user interfaces, optimizing the user experience with a focus on innovation.",
+      "Worked extensively with AWS services, integrating cloud solutions for application hosting, file storage, and continuous deployment pipelines, improving operational efficiency and scalability.",
+      "Mentored junior developers and acted as a subject matter expert in Angular development, promoting coding best practices and high standards within the team."
+    ]
+  },
+  {
+    "Tab": "Anblicks",
+    "Title": "Software Engineer",
+    "Date": "July 2018 - February 2022",
+    "Description": [
+      "Collaborated with cross-functional teams to analyze requirements and design reusable, scalable components for complex applications.",
+      "Employed component-based architecture and strong programming principles to ensure maintainable and efficient code across the project.",
+      "Contributed actively in Agile ceremonies, including sprint planning and technical reviews, to align with project goals and client expectations.",
+      "Provided innovative solutions for performance enhancement and UI/UX improvements, streamlining development processes and optimizing functionality."
+    ]
+  }
+],
 
   "FeatureProjects.Title": "My Projects",
   "FeatureProjects.Label": "Highlighted Project",
