@@ -116,7 +116,10 @@
 @media (max-width: 768px){
     .jobs {
         .job-description{
-            padding: 0px;
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 10px;
+            font-size: 18px;
         }
     }
     ::ng-deep .jobs-tabs{
