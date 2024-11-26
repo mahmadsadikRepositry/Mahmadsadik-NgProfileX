@@ -21,7 +21,7 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem>
-                <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
+                <a (click)='downloadCV();analyticsService.sendAnalyticEvent("download_resume", "Download_Resume", "click")' class="main-btn cv-btn" ngbNavLink>
                   {{"Header.cvBtn" | translate}}
                 </a>
             </li>
