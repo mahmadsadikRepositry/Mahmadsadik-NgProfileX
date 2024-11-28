@@ -61,6 +61,7 @@ export class HeaderComponent implements OnInit {
   }
 
   downloadCV(){
+    this.analyticsService.sendAnalyticEvent("download_resume", "Download_Resume", "click")
     this.languageService.translateService.get("Header.cvName").subscribe(val => {
       this.cvName = val
       console.log(val)
