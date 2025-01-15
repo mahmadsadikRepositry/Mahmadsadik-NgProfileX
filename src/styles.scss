@@ -92,6 +92,43 @@ body {
   }
 }
 
+.side-btn {
+  // @extend .main-btn; // Inherit styles from main-btn
+  cursor: pointer;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 1.25rem 1.75rem; /* Adjust padding for better spacing */
+  width: 3rem; /* Fixed width */
+  height: 3rem; /* Fixed height for circular button */
+  display: inline-flex; /* Align icon within the button */
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: $Green;
+  background-color: transparent;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+
+  i {
+    font-size: 1.5rem; /* Size of the icon */
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+   text-decoration: none !important;
+  }
+
+  /* Spacing between the buttons */
+  margin-left: 2rem; /* Add space between buttons */
+  
+  &:last-child {
+    margin-right: 0; /* Remove right margin on the last button */
+  }
+}
+
+
+
 a {
   text-decoration: none;
 

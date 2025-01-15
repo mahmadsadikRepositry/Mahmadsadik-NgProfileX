@@ -22,6 +22,19 @@
 
   "Experience.Title": "Experience",
   "Experience.Jobs": [
+    {
+      "Tab": "Touro University",
+      "Title": "Adjunct Faculty Instructor(Web Development)",
+      "Date": "January 2025 - Present",
+      "Description": [
+        "Designed and delivered an engaging curriculum on Node.js, emphasizing real-world application development and hands-on learning.",
+        "Simplified complex concepts, guiding students with basic HTML, CSS, and JavaScript knowledge to build scalable web applications.",
+        "Integrated best practices for RESTful API design, Express.js frameworks, and MongoDB databases into course modules.",
+        "Prepared students to tackle challenges in web application security, scalability, and performance.",
+        "Leveraged Canvas LMS to create interactive and accessible course materials.",
+        "Facilitated a collaborative learning environment through hybrid teaching (in-person and Zoom), promoting active participation and practical problem-solving."
+      ]
+    },
   {
     "Tab": "Simform",
     "Title": "Software Engineer",
