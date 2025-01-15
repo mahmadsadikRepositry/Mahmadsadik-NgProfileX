@@ -1,24 +1,73 @@
 <section class="section banner">
-    <div [@bannerTrigger] class="container">
-        <div class="section-box-banner">
-            <div class="content">
-                <div>
-                    <!-- <h1>Hola, mi nombre es</h1> -->
-                    <h1>{{"Banner.Pretitle" | translate}}</h1>
-                </div>
-                <div class='banner-title'>
-                    <h2>Mahmadsadik Koliya.</h2>
-                    <h3>Full Stack Developer | Angular & Node.js</h3>
-                </div>
-                <div class='banner-description'>
-                    <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
-                </div>
-            </div>
-            <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:sadikkoliya@gmail.com" target="_black" class="main-btn">
-                    {{"Banner.ActionBtn" | translate}}
-                </a>
-            </div>
+  <div [@bannerTrigger] class="container">
+    <div class="section-box-banner">
+      <div class="content">
+        <div>
+          <!-- <h1>Hola, mi nombre es</h1> -->
+          <h1>{{ "Banner.Pretitle" | translate }}</h1>
         </div>
+        <div class="banner-title">
+          <h2>Mahmadsadik Koliya.</h2>
+          <h3>Full Stack Developer | Angular & Node.js</h3>
+        </div>
+        <div class="banner-description">
+          <p [innerHTML]="'Banner.Description' | translate" class="mt-4"></p>
+        </div>
+      </div>
+      <div class="div-btn-banner">
+        <a
+        (click)='downloadCV();'
+          class="main-btn"
+        >
+        {{"Header.cvBtn" | translate}}
+        </a>
+
+        <!--Email
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_send_mail',
+              'banner',
+              'email'
+            )
+          "
+          href="mailto:sadikkoliya@gmail.com"
+          target="_black"
+          class="main-btn"
+        >
+          {{ "Banner.ActionBtn" | translate }}
+        </a>
+        -->
+
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_github',
+              'footer',
+              'github'
+            )
+          "
+          href="https://github.com/mahmadsadikRepositry"
+          target="_blank"
+          class="side-btn"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_linkedin',
+              'footer',
+              'linkedin'
+            )
+          "
+          href="https://www.linkedin.com/in/mahmadsadik-koliya-a2a590112/"
+          target="_blank"
+          class="side-btn"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
     </div>
+  </div>
 </section>
