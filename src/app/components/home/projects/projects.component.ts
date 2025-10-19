@@ -3,11 +3,11 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
-  selector: 'app-proyects',
-  templateUrl: './proyects.component.html',
-  styleUrls: ['./proyects.component.scss']
+  selector: 'app-projects',
+  templateUrl: './projects.component.html',
+  styleUrls: ['./projects.component.scss']
 })
-export class ProyectsComponent implements OnInit {
+export class ProjectsComponent implements OnInit {
 
   customOptions: OwlOptions = {
     loop: true,
@@ -17,7 +17,7 @@ export class ProyectsComponent implements OnInit {
     navSpeed: 700,
     items: 1,
     autoplay: true,
-    autoplayTimeout:3000
+    autoplayTimeout:3000,
   }
 
   @ViewChild('imgContainer') imgContainer: ElementRef;
@@ -28,8 +28,6 @@ export class ProyectsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-
-
 
   }
 
