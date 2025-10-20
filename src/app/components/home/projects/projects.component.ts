@@ -32,7 +32,6 @@ export class ProjectsComponent implements OnInit {
   }
 
 debug(){
-
   this.imgContainer.nativeElement.scroll({
     top: this.imgContainer.nativeElement.scrollHeight,
     left: 0,
